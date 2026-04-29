@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, shrink-to-fit=no">
+  <title>Portofolio - Judika Ebenezer Sianturi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">JUDIKA<span>.</span></div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-item">Profil</a></li>
+      <li><a href="portofolio.html" class="nav-item active">Portofolio</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="section portfolio-section">
+      <section class="portfolio-hero">
+        <div class="hero-copy">
+          <span class="eyebrow"><i class="fas fa-bolt"></i> Portfolio Showcase</span>
+          <h1><span class="highlight">Portofolio</span> & Keahlian</h1>
+          <p>Pengalaman organisasi, prestasi, dan karakter kerja yang siap dipakai untuk berkontribusi dalam tim maupun proyek.</p>
+          <div class="hero-actions">
+            <a href="#portfolioCards" class="action-button"><i class="fas fa-layer-group"></i> Lihat Karya</a>
+            <a href="index.html" class="ghost-button"><i class="fas fa-user"></i> Profil Saya</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="orbit-ring"></div>
+          <div class="hero-avatar">
+            <img src="gambar/judika.jpeg" alt="Foto Judika Ebenezer Sianturi">
+          </div>
+          <div class="floating-chip chip-top"><i class="fas fa-users"></i> Teamwork</div>
+          <div class="floating-chip chip-bottom"><i class="fas fa-trophy"></i> Winner Mindset</div>
+        </div>
+      </section>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <strong data-count="2">0</strong>
+          <span>Pengalaman Utama</span>
+        </div>
+        <div class="stat-card">
+          <strong data-count="4">0</strong>
+          <span>Skill Unggulan</span>
+        </div>
+        <div class="stat-card">
+          <strong data-count="2025">0</strong>
+          <span>Aktif Berkarya</span>
+        </div>
+      </div>
+
+      <div class="section-heading">
+        <div>
+          <h2 class="section-title">
+            Sorotan <span class="highlight">Pengalaman</span>
+          </h2>
+          <p class="section-subtitle">Pilih kategori untuk melihat fokus kemampuan.</p>
+        </div>
+        <div class="filter-pills" aria-label="Filter portofolio">
+          <button class="filter-pill active" type="button" data-filter="all">Semua</button>
+          <button class="filter-pill" type="button" data-filter="organisasi">Organisasi</button>
+          <button class="filter-pill" type="button" data-filter="prestasi">Prestasi</button>
+          <button class="filter-pill" type="button" data-filter="skill">Skill</button>
+        </div>
+      </div>
+      
+      <div class="card-grid" id="portfolioCards">
+        <div class="porto-card" data-category="organisasi">
+          <div class="porto-icon">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <span class="year-badge">2024/2025</span>
+          <h3>Anggota HIMATIF</h3>
+          <p>Menjabat sebagai anggota aktif Himpunan Mahasiswa Teknik Informatika (HIMATIF). Berkontribusi dalam kegiatan organisasi, memperkuat kepemimpinan dan kerja tim.</p>
+          <a href="index.html" class="card-link">Lihat profil <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="porto-card" data-category="prestasi">
+          <div class="porto-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <span class="year-badge">Engineering Fest</span>
+          <h3>Juara Lomba ML</h3>
+          <p>Menjuarai kompetisi Mobile Legends di Engineering Fest. Membuktikan kemampuan strategi, kerjasama tim, dan daya juang tinggi.</p>
+          <a href="#summary" class="card-link">Detail prestasi <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="porto-card" data-category="skill">
+          <div class="porto-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <span class="year-badge">Keahlian Utama</span>
+          <h3>Adaptasi & Eksekusi</h3>
+          <p>Mampu melaksanakan tugas yang diberikan dengan cepat dan tepat. Fleksibel dalam berbagai situasi serta mudah beradaptasi dengan lingkungan baru.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Adaptif</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Komunikatif</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-panel">
+        <h2 class="section-title">Alur <span class="highlight">Perjalanan</span></h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>2024</span>
+            <p>Mulai aktif di HIMATIF dan belajar bekerja dalam lingkungan organisasi.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2025</span>
+            <p>Mengasah strategi, komunikasi, dan kekompakan tim lewat kompetisi Engineering Fest.</p>
+          </div>
+          <div class="timeline-item">
+            <span>Sekarang</span>
+            <p>Siap berkembang, menerima tantangan baru, dan mengeksekusi tugas dengan konsisten.</p>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="divider">
+      
+      <div class="portfolio-summary" id="summary">
+        <div class="summary-left">
+          <p><i class="fas fa-check-circle"></i> <strong>Pengalaman organisasi:</strong> HIMATIF 2024/2025</p>
+          <p><i class="fas fa-medal"></i> <strong>Prestasi:</strong> Juara ML Engineering Fest</p>
+        </div>
+        <div class="summary-right">
+          <i class="far fa-clock"></i> Selalu siap berkontribusi.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Judika Ebenezer Sianturi &mdash; Portofolio Kreatif</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
